@@ -62,7 +62,7 @@
 #define COMMAND_FRAME_TYPE 3
 
 // WBAN bit rate [bps]
-#define WBAN_DATA_RATE 971400.0
+#define WBAN_DATA_RATE 971600.0
 #define WBAN_DATA_RATE_KBITS (WBAN_DATA_RATE/1000.0)
 
 /* Node configuration constants     */

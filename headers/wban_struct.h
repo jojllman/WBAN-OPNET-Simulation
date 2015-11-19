@@ -198,6 +198,7 @@ typedef struct
 	int user_priority;
 	int frame_type;
 	int frame_subtype;
+	double waiting_time;
 	Boolean enable; // indicate whether a packet is deleted
 } packet_to_be_sent_attributes;
 
@@ -215,6 +216,7 @@ typedef struct {
 typedef struct {
 	double number;
 	double ppdu_kbits;
+	double waiting_time_total;
 } data_stat_info;
 
 /* statistic vectors */
